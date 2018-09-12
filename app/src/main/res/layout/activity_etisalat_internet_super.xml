@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context="com.example.android.mybundle.EtisalatInternetSuper">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/linearLayout1"
+        android:id="@+id/linearLayout2">
+
+        ر<TextView
+        android:id="@+id/EtisalatInternetSuperText2"
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:textColor="#f5f5f5"
+        android:textSize="15sp"
+        android:text="باقة10جنيه:400ميجا تنقسم الي
+200ميجا,200ميجا سوشيال" />
+
+        <Button
+            android:id="@+id/EtisalatInternetSuperBu2"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/etisalatbutton"
+            android:text="@string/sub"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/linearLayout3"
+            android:layout_below="@id/linearLayout2">
+
+            ر<TextView
+            android:id="@+id/EtisalatInternetSuperText3"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:textColor="#f5f5f5"
+            android:textSize="15sp"
+            android:text="باقة20جنيه:1000ميجا تنقسم الي
+500ميجا,500ميجا سوشيال" />
+
+            <Button
+                android:id="@+id/EtisalatInternetSuperBu3"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/etisalatbutton"
+                android:text="@string/sub"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/linearLayout4"
+            android:layout_below="@id/linearLayout3">
+
+            ر<TextView
+            android:id="@+id/EtisalatInternetSuperText4"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:textColor="#f5f5f5"
+            android:textSize="15sp"
+            android:text="باقة35جنيه:2500ميجا تنقسم الي
+1250ميجا,1250ميجا سوشيال" />
+
+            <Button
+                android:id="@+id/EtisalatInternetSuperBu4"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/etisalatbutton"
+                android:text="@string/sub"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/linearLayout5"
+            android:layout_below="@id/linearLayout4">
+
+            ر<TextView
+            android:id="@+id/EtisalatInternetSuperText5"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:textColor="#f5f5f5"
+            android:textSize="15sp"
+            android:text="باقة65جنيه:5000ميجا تنقسم الي
+2500ميجا,2500ميجا سوشيال" />
+
+            <Button
+                android:id="@+id/EtisalatInternetSuperBu5"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/etisalatbutton"
+                android:text="@string/sub"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/linearLayout6"
+            android:layout_below="@id/linearLayout5">
+
+            ر<TextView
+            android:id="@+id/EtisalatInternetSuperText6"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:textColor="#f5f5f5"
+            android:textSize="15sp"
+            android:text="باقة130جنيه:10,000ميجا" />
+
+            <Button
+                android:id="@+id/EtisalatInternetSuperBu6"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/etisalatbutton"
+                android:text="@string/sub"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/linearLayout7"
+            android:layout_below="@id/linearLayout6">
+
+            ر<TextView
+            android:id="@+id/EtisalatInternetSuperText7"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:textColor="#f5f5f5"
+            android:textSize="15sp"
+            android:text="باقة200جنيه:16,000ميجا" />
+
+            <Button
+                android:id="@+id/EtisalatInternetSuperBu7"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/etisalatbutton"
+                android:text="@string/sub"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/linearLayout8"
+            android:layout_below="@id/linearLayout7">
+
+            ر<TextView
+            android:id="@+id/EtisalatInternetSuperText8"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:textColor="#f5f5f5"
+            android:textSize="15sp"
+            android:text="باقة300جنيه:25,000ميجا" />
+
+            <Button
+                android:id="@+id/EtisalatInternetSuperBu8"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/etisalatbutton"
+                android:text="@string/sub"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+
+</ScrollView>

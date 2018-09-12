@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My bundle</string>
+    <string name="title_activity_voda_main">VodaMainActivity</string>
+    <string name="sub">Subscribe</string>
+    <string name="title_activity_orange_main">OrangeMainActivity</string>
+    <string name="title_activity_etisalat_main">EtisalatMainActivity</string>
+    <string name="title_activity_wemain">WEMainActivity</string>
+</resources>

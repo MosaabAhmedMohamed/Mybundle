@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#212121"
+    android:layout_gravity="top"
+    tools:context="com.example.android.mybundle.VodaInternetWeekly">
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        ر
+
+        <TextView
+            android:id="@+id/vodaInternetWeekly1"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:text="باقة2جنيه:50ميجا صالحة 7 أيام"
+            android:textColor="#f5f5f5"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/vodaInternetWeeklyBu1"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/vodabutton"
+            android:onClick="@+id/vodaInternetWeeklyClick1"
+            android:text="@string/sub"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:layout_below="@id/linearLayout1"
+        android:orientation="horizontal">
+
+        ر
+
+        <TextView
+            android:id="@+id/vodaInternetWeekly2"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:text="باقة3جنيه
+ :  100 ميجا صالحة 7 أيام"
+            android:textColor="#f5f5f5"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/vodaInternetWeeklyBu2"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/vodabutton"
+            android:onClick="@+id/vodaInternetWeeklyClick2"
+            android:text="@string/sub"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="10dp"
+        android:layout_below="@id/linearLayout2"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        ر
+
+        <TextView
+            android:id="@+id/vodaInternetWeekly3"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:text="باقة7جنيه:350 ميجا صالحة 7 أيام"
+            android:textColor="#f5f5f5"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/vodaInternetWeeklyBu3"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/vodabutton"
+            android:onClick="@+id/vodaInternetWeeklyClick3"
+            android:text="@string/sub"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+
+</RelativeLayout>

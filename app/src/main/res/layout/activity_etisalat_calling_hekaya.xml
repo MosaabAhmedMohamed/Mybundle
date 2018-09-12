@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="top"
+    android:background="@color/black"
+    tools:context="com.example.android.mybundle.EtisalatCallingHekaya">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/linearLayout1"
+        android:id="@+id/linearLayout1">
+
+        ر<TextView
+        android:id="@+id/EtisalatCallingHekayaText1"
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:textColor="#f5f5f5"
+        android:textSize="15sp"
+        android:text="حكاية29جنيه:400دقيقة لأتصالات,
+30دقيقة شبكات أخري,600ميجا نت " />
+
+        <Button
+            android:id="@+id/EtisalatCallingHekayaBu1"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/etisalatbutton"
+            android:text="@string/sub"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/linearLayout1"
+        android:id="@+id/linearLayout2">
+
+        ر<TextView
+        android:id="@+id/EtisalatCallingHekayaText2"
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:textColor="#f5f5f5"
+        android:textSize="15sp"
+        android:text="حكاية49جنيه:1200دقيقة لأتصالات,
+60دقيقة شبكات أخري,1250ميجا نت " />
+
+        <Button
+            android:id="@+id/EtisalatCallingHekayaBu2"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/etisalatbutton"
+            android:text="@string/sub"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/linearLayout2"
+        android:id="@+id/linearLayout3">
+
+        ر<TextView
+        android:id="@+id/EtisalatCallingHekayaText3"
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:textColor="#f5f5f5"
+        android:textSize="15sp"
+        android:text="حكاية99جنيه:2500دقيقة لأتصالات,
+180دقيقة شبكات أخري,3,500ميجا نت " />
+
+        <Button
+            android:id="@+id/EtisalatCallingHekayaBu3"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/etisalatbutton"
+            android:text="@string/sub"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/linearLayout3"
+        android:id="@+id/linearLayout4">
+
+        ر<TextView
+        android:id="@+id/EtisalatCallingHekayaText4"
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:textColor="#f5f5f5"
+        android:textSize="15sp"
+        android:text="حكاية199جنيه:5500دقيقة لأتصالات,
+550دقيقة شبكات أخري,7000ميجا نت " />
+
+        <Button
+            android:id="@+id/EtisalatCallingHekayaBu4"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/etisalatbutton"
+            android:text="@string/sub"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+
+</RelativeLayout>

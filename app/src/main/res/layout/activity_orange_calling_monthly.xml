@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    tools:context="com.example.android.mybundle.OrangeCallingMonthly">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal"
+        android:id="@+id/linearLayout">
+
+        <TextView
+            android:id="@+id/OrangeCallingMonthlyText1"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:textSize="15sp"
+            android:textColor="#f5f5f5"
+            android:text="دولفين25جنيه:800وحدة,
+300دقيقة للرقم المفضل" />
+
+        <Button
+            android:id="@+id/OrangeCallingMonthlyBu1"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/orangebutton"
+            android:text="@string/sub"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/linearLayout"
+        android:orientation="horizontal"
+        android:id="@+id/linearLayout2">
+        <TextView
+            android:id="@+id/OrangeCallingMonthlyText2"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:textColor="#f5f5f5"
+            android:textSize="15sp"
+            android:text="دولفين40جنيه:1500وحدة,
+450دقيقة للرقم المفضل" />
+
+        <Button
+            android:id="@+id/OrangeCallingMonthlyBu2"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/orangebutton"
+            android:text="@string/sub"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/linearLayout2"
+        android:id="@+id/linearLayout3"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/OrangeCallingMonthlyText3"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:text="دولفين60جنيه:2500وحدة,
+1000دقيقة للرقم المفضل"
+            android:textColor="#f5f5f5"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/OrangeCallingMonthlyBu3"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/orangebutton"
+            android:text="@string/sub"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="الدقية لأورنج أو الميجابايت بوحدة
+الدقيقة للشبكات الأخري بـ5وحدة "
+        android:textSize="20sp"
+       android:textColor="@color/white"
+        android:layout_below="@id/linearLayout3"
+        />
+
+</RelativeLayout>

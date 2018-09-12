@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    tools:context="com.example.android.mybundle.OrangeInternetDaily">
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        ر
+
+        <TextView
+            android:id="@+id/OrangeInternetDaily1"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:text="أون لاين سوشيال1جنيه:بلا حدود لمواقع التواصل الاجتماعي"
+            android:textColor="#f5f5f5"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/OrangeInternetDailyBu1"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/orangebutton"
+            android:text="Subscribe"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/linearLayout1"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        ر
+
+        <TextView
+            android:id="@+id/OrangeInternetDaily2"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:text="أون لاين1جنيه:25ميجا"
+            android:textColor="#f5f5f5"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/OrangeInternetDailyBu2"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/orangebutton"
+            android:text="Subscribe"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+
+
+</RelativeLayout>

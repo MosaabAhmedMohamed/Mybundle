@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="top"
+    android:background="@color/black"
+    tools:context="com.example.android.mybundle.WeInternetMonthly"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/linearLayout1"
+        android:id="@+id/linearLayout1">
+
+        ر<TextView
+        android:id="@+id/WeInternetMonthlyText1"
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:textColor="#f5f5f5"
+        android:textSize="15sp"
+        android:text="باقة10جنيه:
+1000ميجا تنقسم الي 500ميجا أساسيه,
+500ميجا اضافيه" />
+
+            <Button
+                android:id="@+id/WeInternetMonthlyBu1"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/webutton"
+                android:text="@string/sub"
+                android:textColor="@color/white" />
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@id/linearLayout1"
+            android:id="@+id/linearLayout2">
+
+            ر
+
+            <TextView
+                android:id="@+id/WeInternetMonthlyText2"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:text="باقة20جنيه:
+2500ميجا تنقسم الي 1250ميجا أساسيه,
+1250ميجا اضافيه"
+                android:textColor="#f5f5f5"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/WeInternetMonthlyBu2"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/webutton"
+                android:text="@string/sub"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@id/linearLayout2"
+            android:id="@+id/linearLayout3">
+
+            ر<TextView
+            android:id="@+id/WeInternetMonthlyText3"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:textColor="#f5f5f5"
+            android:textSize="15sp"
+            android:text="باقة40جنيه:
+6,000ميجا تنقسم الي 3000ميجا أساسيه,
+3000ميجا اضافيه" />
+
+            <Button
+                android:id="@+id/WeInternetMonthlyBu3"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/webutton"
+                android:text="@string/sub"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@id/linearLayout3"
+            android:id="@+id/linearLayout4">
+
+            ر<TextView
+            android:id="@+id/WeInternetMonthlyText4"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:textColor="#f5f5f5"
+            android:textSize="15sp"
+            android:text="باقة100جنيه:
+18,000ميجا تنقسم الي 9,000ميجا أساسيه,
+9,000ميجا اضافيه" />
+
+            <Button
+                android:id="@+id/WeInternetMonthlyBu4"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/webutton"
+                android:text="@string/sub"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@id/linearLayout4"
+            android:id="@+id/linearLayout5">
+
+            ر<TextView
+            android:id="@+id/WeInternetMonthlyText5"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:textColor="#f5f5f5"
+            android:textSize="15sp"
+            android:text="باقة200جنيه:
+40,000ميجا تنقسم الي 20,000ميجا أساسيه,
+20,000ميجا اضافيه" />
+
+            <Button
+                android:id="@+id/WeInternetMonthlyBu5"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/webutton"
+                android:text="@string/sub"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

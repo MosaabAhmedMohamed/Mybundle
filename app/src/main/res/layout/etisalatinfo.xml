@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/black">
+
+    <Button
+        android:id="@+id/EtisalatNumber"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="40dp"
+        android:background="@drawable/etisalatbutton"
+        android:text="MY Number"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/EtisalatStock"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/EtisalatNumber"
+        android:layout_margin="40dp"
+        android:layout_marginTop="68dp"
+        android:background="@drawable/etisalatbutton"
+        android:text="MY STOCK"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/EtisalatStock"
+        android:layout_margin="40dp"
+        android:layout_marginTop="75dp"
+        android:background="@drawable/etisalatbutton"
+        android:text="Button"
+        android:textColor="@color/black" />
+
+</RelativeLayout>

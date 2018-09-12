@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/black"
+    android:layout_height="match_parent"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/VodaCallingMonthlyBu"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@drawable/vodabutton"
+            android:text="monthly"
+            android:textColor="#f5f5f5" />
+
+        <Button
+            android:id="@+id/VodaCallingWeeklyBu"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@drawable/vodabutton"
+            android:layout_below="@id/VodaCallingMonthlyBu"
+            android:text="weekly"
+            android:textColor="#f5f5f5" />
+
+        <Button
+            android:id="@+id/VodaCallingDailyBu"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_below="@id/VodaCallingWeeklyBu"
+            android:background="@drawable/vodabutton"
+            android:text="daily"
+            android:textColor="#f5f5f5" />
+    </RelativeLayout>
+
+</ScrollView>

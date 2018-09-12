@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/black">
+    <Button
+        android:id="@+id/EtisalatInternetSuperBu"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="40dp"
+        android:background="@drawable/etisalatbutton"
+        android:text="Super Connect"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/EtisalatInternetConnectBu"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/EtisalatInternetSuperBu"
+        android:layout_margin="40dp"
+        android:background="@drawable/etisalatbutton"
+        android:text="Connect"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/EtisalatInternetDailyBu"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/EtisalatInternetConnectBu"
+        android:layout_margin="40dp"
+        android:background="@drawable/etisalatbutton"
+        android:text="daily"
+        android:textColor="@color/black" />
+
+</RelativeLayout>

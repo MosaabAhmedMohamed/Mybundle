@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#212121"
+    android:layout_gravity="top"
+    tools:context="com.example.android.mybundle.VodaCallingDaily">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal"
+        android:id="@+id/linearLayout">
+
+        <TextView
+            android:id="@+id/vodaCallingDailyText1"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:textSize="15sp"
+            android:textColor="#f5f5f5"
+            android:text="حركات1 جنيه: 30دقيقة فودافون  شبكة اخري ب 14 قرش " />
+
+        <Button
+            android:id="@+id/vodaCallingDailyBu1"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/vodabutton"
+            android:text="@string/sub"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/linearLayout"
+        android:orientation="horizontal"
+        android:id="@+id/linearLayout2">
+        <TextView
+            android:id="@+id/vodaCallingDailyText2"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:textColor="#f5f5f5"
+            android:textSize="15sp"
+            android:text="حركات2 جنيه: 60دقيقة فودافون  شبكة اخري ب 14 قرش " />
+
+        <Button
+            android:id="@+id/vodaCallingDailyBu2"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/vodabutton"
+            android:text="@string/sub"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/linearLayout2"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/vodaCallingDailyText3"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:textColor="#f5f5f5"
+            android:textSize="15sp"
+            android:text="حركات 14 قرش: 14 قرش للدقيقة لأي رقم في مصر " />
+
+        <Button
+            android:id="@+id/vodaCallingDailyBu3"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/vodabutton"
+            android:text="@string/sub"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

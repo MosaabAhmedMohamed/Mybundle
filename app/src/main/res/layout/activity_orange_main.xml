@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.mybundle.OrangeMainActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:titleTextColor="@color/white"
+            android:background="@color/black"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            />
+
+        <android.support.design.widget.TabLayout
+            android:layout_width="match_parent"
+            android:id="@+id/OrangeTab"
+            app:tabMode="fixed"
+            app:tabGravity="center"
+            android:background="#ff5722"
+            android:layout_height="?attr/actionBarSize"
+            >
+
+        </android.support.design.widget.TabLayout>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/content_orange_main" />
+
+
+
+</android.support.design.widget.CoordinatorLayout>

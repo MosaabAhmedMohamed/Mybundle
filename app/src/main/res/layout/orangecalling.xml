@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/black"
+    >
+
+    <Button
+        android:id="@+id/OrangeCallingMonthlyBu"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="40dp"
+        android:background="@drawable/orangebutton"
+        android:text="​Dol​phin"
+        android:textColor="#f5f5f5" />
+
+    <Button
+        android:id="@+id/OrangeCallingWeeklyBu"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/OrangeCallingMonthlyBu"
+        android:layout_margin="40dp"
+        android:background="@drawable/orangebutton"
+        android:text="Panther"
+        android:textColor="#f5f5f5" />
+
+    <Button
+        android:id="@+id/OrangeCallingDailyBu"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/OrangeCallingWeeklyBu"
+        android:layout_margin="40dp"
+        android:background="@drawable/orangebutton"
+        android:text="Fox​"
+        android:textColor="#f5f5f5" />
+
+</RelativeLayout>

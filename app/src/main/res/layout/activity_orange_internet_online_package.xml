@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    tools:context="com.example.android.mybundle.OrangeInternetOnlinePackage">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:orientation="horizontal"
+            android:id="@+id/linearLayout1">
+
+            ر<TextView
+            android:id="@+id/OrangeInternetOnlineText1"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:textColor="#f5f5f5"
+            android:textSize="15sp"
+            android:text="أون لاين7.5جنيه: 200ميجا" />
+
+            <Button
+                android:id="@+id/OrangeInternetOnlineBu1"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/orangebutton"
+                android:text="@string/sub"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/linearLayout1"
+            android:orientation="horizontal"
+            android:id="@+id/linearLayout2">
+
+            ر
+
+            <TextView
+                android:id="@+id/OrangeInternetOnlineText2"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:text="أون لاين15جنيه: 500ميجا"
+                android:textColor="#f5f5f5"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/OrangeInternetOnlineBu2"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/orangebutton"
+                android:text="@string/sub"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/linearLayout2"
+            android:orientation="horizontal"
+            android:id="@+id/linearLayout3">
+
+            ر
+
+            <TextView
+                android:id="@+id/OrangeInternetOnlineText3"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:text="أون لاين30جنيه: 1,500ميجا"
+                android:textColor="#f5f5f5"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/OrangeInternetOnlineBu3"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/orangebutton"
+                android:text="@string/sub"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/linearLayout3"
+            android:orientation="horizontal"
+            android:id="@+id/linearLayout4">
+
+            ر
+
+            <TextView
+                android:id="@+id/OrangeInternetOnlineText4"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:text="أون لاين45جنيه: 2,500ميجا"
+                android:textColor="#f5f5f5"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/OrangeInternetOnlineBu4"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/orangebutton"
+                android:text="@string/sub"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/linearLayout4"
+            android:orientation="horizontal"
+            android:id="@+id/linearLayout5">
+
+            ر
+
+            <TextView
+                android:id="@+id/OrangeInternetOnlineText5"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:text="أون لاين60جنيه: 3,500ميجا"
+                android:textColor="#f5f5f5"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/OrangeInternetOnlineBu5"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/orangebutton"
+                android:text="@string/sub"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/linearLayout5"
+            android:orientation="horizontal"
+            android:id="@+id/linearLayout6">
+
+            ر
+
+            <TextView
+                android:id="@+id/OrangeInternetOnlineText6"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:text="أون لاين75جنيه: 5,000ميجا"
+                android:textColor="#f5f5f5"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/OrangeInternetOnlineBu6"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/orangebutton"
+                android:text="@string/sub"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/linearLayout6"
+            android:orientation="horizontal"
+            android:id="@+id/linearLayout7">
+
+            ر
+
+            <TextView
+                android:id="@+id/OrangeInternetOnlineText7"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:text="أون لاين100جنيه: 8,000ميجا"
+                android:textColor="#f5f5f5"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/OrangeInternetOnlineBu7"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/orangebutton"
+                android:text="@string/sub"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/linearLayout7"
+            android:orientation="horizontal"
+            android:id="@+id/linearLayout8">
+
+            ر
+
+            <TextView
+                android:id="@+id/OrangeInternetOnlineText8"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:text="أون لاين150جنيه: 12,000ميجا"
+                android:textColor="#f5f5f5"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/OrangeInternetOnlineBu8"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/orangebutton"
+                android:text="@string/sub"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+           android:layout_below="@id/linearLayout8"
+            android:orientation="horizontal"
+            android:id="@+id/linearLayout9">
+
+            ر
+
+            <TextView
+                android:id="@+id/OrangeInternetOnlineText9"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:text="أون لاين250جنيه: 20,000ميجا"
+                android:textColor="#f5f5f5"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/OrangeInternetOnlineBu9"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/orangebutton"
+                android:text="@string/sub"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/linearLayout9"
+            android:orientation="horizontal"
+            android:id="@+id/linearLayout10">
+
+            ر
+
+            <TextView
+                android:id="@+id/OrangeInternetOnlineText10"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:text="أون لاين400جنيه: 40,000ميجا"
+                android:textColor="#f5f5f5"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/OrangeInternetOnlineBu10"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/orangebutton"
+                android:text="@string/sub"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</ScrollView>

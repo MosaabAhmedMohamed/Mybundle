@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.mybundle">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/icon_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.DarkActionBar">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".VodaMainActivity"
+            android:label="@string/title_activity_voda_main"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".VodaCallingMonthly"
+            android:label="Vodafone Calling" />
+        <activity android:name=".VodaCallingWeekly" />
+        <activity android:name=".VodaCallingDaily" />
+        <activity android:name=".VodaInternetMonthly" />
+        <activity android:name=".VodaInternetWeekly" />
+        <activity android:name=".VodaInternetDaily" />
+        <activity
+            android:name=".OrangeMainActivity"
+            android:label="@string/title_activity_orange_main"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".OrangeCallingDaily" />
+        <activity android:name=".OrangeCallingWeekly" />
+        <activity android:name=".OrangeCallingMonthly" />
+        <activity android:name=".OrangeInternetDaily" />
+        <activity android:name=".OrangeInternetGoPackage" />
+        <activity android:name=".OrangeInternetOnlinePackage" />
+        <activity
+            android:name=".EtisalatMainActivity"
+            android:label="@string/title_activity_etisalat_main"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".EtisalatInternetSuper" />
+        <activity android:name=".EtisalatInternetConnect" />
+        <activity android:name=".EtisalatInternetDaily" />
+        <activity android:name=".EtisalatCallingHekaya" />
+        <activity android:name=".EtisalatCallingHekayaMix" />
+        <activity android:name=".EtisalatCallingAhlan" />
+        <activity
+            android:name=".WEMainActivity"
+            android:label="@string/title_activity_wemain"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".WeInternetMonthly" />
+        <activity android:name=".WeInternetDaily" />
+        <activity android:name=".WeCallingMonthly" />
+        <activity android:name=".WeCallingDaily"></activity>
+    </application>
+
+</manifest>

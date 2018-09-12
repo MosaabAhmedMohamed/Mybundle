@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="top"
+    android:background="#212121"
+    tools:context="com.example.android.mybundle.VodaInternetDaily">
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        ر
+
+        <TextView
+            android:id="@+id/vodaInternetDaily1"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:text="باقة75قرش: ساعة نت في اي وقت "
+            android:textColor="#f5f5f5"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/vodaInternetDailyBu1"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/vodabutton"
+            android:text="Subscribe"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@+id/linearLayout1"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        ر
+
+        <TextView
+            android:id="@+id/vodaInternetDaily2"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:text="باقة1.5جنيه: 3ساعات نت في أي وقت"
+            android:textColor="#f5f5f5"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/vodaInternetDailyBu2"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/vodabutton"
+            android:text="Subscribe"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/linearLayout2"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        ر
+
+        <TextView
+            android:id="@+id/vodaInternetDaily3"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:text="باقة2.5جنيه: 6ساعات نت في أي وقت "
+            android:textColor="#f5f5f5"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/vodaInternetDailyBu3"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/vodabutton"
+            android:text="Subscribe"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</RelativeLayout>

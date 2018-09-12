@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/black">
+
+    <Button
+        android:id="@+id/OrangeInternetOnlineBu"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="40dp"
+        android:background="@drawable/orangebutton"
+        android:onClick="OrangeInternetOnline"
+        android:text="Online Pacakge"
+        android:textColor="#f5f5f5" />
+
+    <Button
+        android:id="@+id/OrangeInternetGoBu"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/OrangeInternetOnlineBu"
+        android:layout_margin="40dp"
+        android:background="@drawable/orangebutton"
+        android:onClick="OrangeInternetGo"
+        android:text="GO Package"
+        android:textColor="#f5f5f5" />
+
+    <Button
+        android:id="@+id/OrangeInternetDailyBu"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/OrangeInternetGoBu"
+        android:layout_margin="40dp"
+        android:background="@drawable/orangebutton"
+        android:onClick="OrangeInternetDaily"
+        android:text="daily"
+        android:textColor="#f5f5f5" />
+
+</RelativeLayout>

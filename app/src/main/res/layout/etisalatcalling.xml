@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/black">
+
+    <Button
+        android:id="@+id/EtisalatCallingHekayaBu"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="40dp"
+        android:background="@drawable/etisalatbutton"
+        android:text="​Hekaya"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/EtisalatCallingHekayaMixBu"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/EtisalatCallingHekayaBu"
+        android:layout_margin="40dp"
+        android:background="@drawable/etisalatbutton"
+        android:text="Hekaya Mix"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/EtisalatCallingAhlanBu"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/EtisalatCallingHekayaMixBu"
+        android:layout_margin="40dp"
+        android:background="@drawable/etisalatbutton"
+        android:text="Ahlan"
+        android:textColor="@color/black" />
+
+</RelativeLayout>
